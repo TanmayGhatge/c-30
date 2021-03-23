@@ -75,3 +75,17 @@ function mouseDragged(){
 function mouseReleased(){
     slingshot.fly();
 }
+
+// function - any name follwed by a pair of parenthesis is known as function.
+/*= - assignment operator is used to assign some value.
+  == - comparison operator which only compares the value.
+  === - comparison operator which compares value and the datatype.
+  
+  datatype - what kind of data is stored in it 
+  eg. string,integer,float'decimal'.
+*/
+function keyPressed(){
+    if (keyCode === 32) {
+        slingshot.attach(bird.body);
+    }
+}
